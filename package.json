@@ -1,7 +1,7 @@
 {
   "name": "managerium",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "devDependencies": {
     "react-scripts": "0.8.5"
   },
@@ -15,4 +15,16 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   }
+  "description": "A beast powerfull enough to manage your business",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/innermond/managerium.git"
+  },
+  "author": "Gabriel Braila",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/innermond/managerium/issues"
+  },
+  "homepage": "https://github.com/innermond/managerium#readme"
 }
