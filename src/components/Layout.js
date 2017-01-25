@@ -1,13 +1,15 @@
 import React from 'react'
-import {Link} from 'react-router'
+
+import NavLink from './NavLink'
+import '../style.css'
 
 const Layout = props => {
   return (
     <div>
       <h1>Managerium</h1>
-      <Link to="/work">Work</Link>
+      <NavLink to="/work">Work</NavLink>
       {' | '}
-      <Link to="/home">Home</Link>
+      <NavLink to="/home">Home</NavLink>
       {props.children}
     </div>
   )

@@ -1,11 +1,11 @@
 import React from 'react'
-import {Link} from 'react-router'
+import NavLink from '../NavLink'
 
 const Work = props => {
   return (
       <div>
     <p>Wow!! Such a great work here!
-    <Link to="/work/add">Add</Link>
+    <NavLink to="/work/add">Add</NavLink>
     </p>
     {props.children}
     </div>
