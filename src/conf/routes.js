@@ -1,15 +1,16 @@
 import React from 'react'
-import {Router, Route, hashHistory} from 'react-router'
+import {Router, Route, browserHistory} from 'react-router'
 import Layout from '../components/Layout'
 import Home from '../components/Home'
-import Work, {Task} from '../components/Work'
+import Work from '../components/Work/Index'
+import AddWork from '../components/Work/Add'
 
 const routes = (
-<Router history={hashHistory}>
+<Router history={browserHistory}>
   <Route path="/" component={Layout}>
     <Route path="/home" component={Home} />
     <Route path="/work" component={Work}>
-      <Route path="task" component={Task} />
+      <Route path="add" component={AddWork} />
     </Route>
   </Route>
 </Router> )
